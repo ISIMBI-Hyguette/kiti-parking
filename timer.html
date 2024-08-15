@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>KITI<span>PARKING</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Signup</a></li>
+                <!-- <li><a href="uploader.html">Uploader</a></li> -->
+                <li><a href="home.html">Timer</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="timer-container">
+        <div class="timer" id="days">
+            <div class="circle" data-value="100"></div>
+            <div class="label">DAYS</div>
+        </div>
+        <div class="timer" id="hours">
+            <div class="circle" data-value="100"></div>
+            <div class="label">HOURS</div>
+        </div>
+        <div class="timer" id="mins">
+            <div class="circle" data-value="100"></div>
+            <div class="label">MINS</div>
+        </div>
+        <div class="timer" id="secs">
+            <div class="circle" data-value="100"></div>
+            <div class="label">SECS</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
